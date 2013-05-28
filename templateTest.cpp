@@ -1,3 +1,9 @@
+/*
+Notice the use of a declaration in the template
+It's pretty nuts that you can pass in variables to templates.
+
+ */
+
 #include <iostream>
 using namespace std;
 
