@@ -9,8 +9,6 @@ the string class.
 The author intends to only show you classes and nothing else new.
 That is what makes this book superior to Mark Allen-Weiss' book.
  
-Sadly, this code uses the old standard and therefore is not recognized by 
-the current g++ compiler.
 */
 
 #include <cstdlib>
