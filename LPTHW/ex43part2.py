@@ -143,7 +143,7 @@ class LaserWeaponArmory(Scene):
         print "closes forever and you can't get the bomb.  The code is 3"
         print "digits."
         
-        code = "%d%d%d" % (randint(1,9), randint(1,9), randint(1,9))
+        code = "%d%d%d" % (1,1,1)#(randint(1,9), randint(1,9), randint(1,9))
         guess = raw_input("[keypad]> ")
         
         if guess == "cheat":
@@ -154,6 +154,12 @@ class LaserWeaponArmory(Scene):
         while guess != code and guesses < 9:
             print "BZZZZZZZZEDDD!"
             guesses += 1
+            if guess < code:
+                print "higher"
+            elif guess > code:
+                print "lower"
+            else:
+                pass
             guess = raw_input("[keypad]> ")
 
         if guess == code:

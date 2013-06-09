@@ -1,7 +1,7 @@
 class Scene(object):
     
     def enter(self):
-        
+        print "Miss configured file!!!"
 
 class Engine(object):
     def __init__(self, scene_map):
